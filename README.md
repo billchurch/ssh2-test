@@ -3,7 +3,7 @@
 - node v14.17.0
 - client (node host) macOS 10.15.7 (19H1030) OpenSSH_8.1p1, LibreSSL 2.7.3
 - server (Ubuntu 14.04.5 LTS x86_64) OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.10, OpenSSL 1.0.1f 
-- wireshark Version 3.0.2 (v3.0.2-0-g621ed351d5c9) 
+- wireshark Version 3.4.5 (v3.4.5-0-g7db1feb42ce9) AND Version 3.0.2 (v3.0.2-0-g621ed351d5c9)
 
 When using ssh2 as a client, wireshark reports malformed packets after key exchange complete in the first encrypted data packet. In the example `malformed_packets.pcapng` line 19 shows the example.
 ![image](https://user-images.githubusercontent.com/1668075/119132405-a541f500-ba08-11eb-87a0-21838b8a9ff1.png)
